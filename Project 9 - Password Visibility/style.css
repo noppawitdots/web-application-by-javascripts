@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+.form-control{
+    position: relative;
+    margin: 20px 0;
+    width: 300px;
+}
+
+.form-control input{
+    border: 0;
+    border-bottom: 2px solid #65451c;
+    outline: none;
+    display: block;
+    padding: 12px 0;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.form-control label{
+    position: absolute;
+    top: 0;left: 0;
+    font-size: 20px;
+    color: #65451c;
+}
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background-color: #deb887;
+    color: #65451c;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 10px;
+}
+.fa-solid{
+    position: absolute;
+    right: 1.2rem;
+    top: 1.2rem;
+    cursor: pointer;
+}
+
+/*
+#deb887
+#65451c
+*/

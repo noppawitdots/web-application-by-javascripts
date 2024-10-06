@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #000000;
+    --secondary-color: #FFFFFF;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.time{
+    font-size: 50px;
+}
+.toggle{
+    cursor: pointer;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border: 0;
+    border-radius: 4px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 400px;
+}
+
+
+html.dark{
+    --primary-color:#FFFFFF;
+    --secondary-color: #333333;
+}
+html.dark{
+    background:#111111;
+    color: #FFFFFF;
+}
+
+html{
+    transition: all 0.25s ease-in;
+}
